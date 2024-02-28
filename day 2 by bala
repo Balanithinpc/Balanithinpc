@@ -1,0 +1,19 @@
+print("calculator")
+a=int(input("enter the number a:"))
+b=int(input("enter the number b:"))
+c=input("enter the symbol:"))
+if(c=="+"):
+     print(a+b)
+elif(c=="-"):
+     print(a-b)
+elif(c=="*"):
+     print(a*b)
+
+elif(c=="/"):
+     print(a/b)
+
+elif(c=="**"):
+     print("power of a value")
+     print(a**b)
+else:
+  print("dimension error")
